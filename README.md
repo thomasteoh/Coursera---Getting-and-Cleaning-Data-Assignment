@@ -39,4 +39,4 @@ These correspond to a factor in a column in our data. So match them up according
 
 ### (7) Calculate averages and write to a file
 
-As specified in the instructions, we want the means of our measurements. Then its reordered so that the measurements for subject 1 are grouped together and written to our output file run_analysis_averages.txt
+As specified in the instructions, we want the means of our measurements. Then its reordered so that the measurements for each subject are grouped together and written to our output file run_analysis_averages.txt
