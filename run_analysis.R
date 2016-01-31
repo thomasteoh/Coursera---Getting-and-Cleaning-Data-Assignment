@@ -32,3 +32,7 @@ activity.data$activity.labels <- as.character(labels[match(activity.data$activit
 averages <- aggregate(. ~subject.id + activity.labels, activity.data, mean)
 averages <- averages[order(averages$subject.id),]
 write.table(averages, file = "run_analysis_averages.txt", row.names = FALSE)
+
+# Generate Codebook
+library(memisc)
+capture.output(codebook(as.data.frame(averages)), file = 'Codebook_tmp.md')
