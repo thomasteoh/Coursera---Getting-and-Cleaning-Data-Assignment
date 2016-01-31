@@ -30,8 +30,8 @@ test:
 - `UCI HAR Dataset/test/subject_test.txt` - Integers denoting the subject being recorded
 
 other:
-`UCI HAR Dataset/features.txt` - The names of the 561 features recorded
-`UCI HAR Dataset/activity_labels.txt` - Activities performed (walking, walking upstairs etc)
+- `UCI HAR Dataset/features.txt` - The names of the 561 features recorded
+- `UCI HAR Dataset/activity_labels.txt` - Activities performed (walking, walking upstairs etc)
 
 Other data files within the dataset (eg. Raw signal data) were not used in this analysis. 
 
