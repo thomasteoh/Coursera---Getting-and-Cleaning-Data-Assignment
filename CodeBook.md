@@ -19,17 +19,17 @@ The sensor signals (accelerometer and gyroscope) were pre-processed by applying 
 
 ## Data files
 
-train: 
+`train` set: 
 - `UCI HAR Dataset/train/X_train.txt` - 7352 observations for 21 subjects
 - `UCI HAR Dataset/train/y_train.txt` - Integers denoting the activity (walking, walking upstairs etc) being recorded
 - `UCI HAR Dataset/train/subject_train.txt` - Integers denoting the subject being recorded
 
-test: 
+`test` set: 
 - `UCI HAR Dataset/test/X_test.txt` - 2947 observations for 9 subjects
 - `UCI HAR Dataset/test/y_test.txt` - Integers denoting the activity (walking, walking upstairs etc) being recorded
 - `UCI HAR Dataset/test/subject_test.txt` - Integers denoting the subject being recorded
 
-other:
+Descriptive information:
 - `UCI HAR Dataset/features.txt` - The names of the 561 features recorded
 - `UCI HAR Dataset/activity_labels.txt` - Activities performed (walking, walking upstairs etc)
 
